@@ -14,3 +14,12 @@ class Car:
         print(f"Car Make:" {self.make})
         print(f"Car Model:" {self.model})
         print(f"Car Year:" {self.year})        
+        
+myCar = Car("Red", "Ferrari", "F50", "1995")
+car2 = Car("Yellor", "Lambo", "Aventador", "2012")
+
+myCar.displayInfo()
+
+print("---------------------------------")
+
+car2.displayInfo()
