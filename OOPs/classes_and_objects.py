@@ -10,10 +10,10 @@ class Car:
         
     #Method to display car Details
     def displayInfo(self):
-        print(f"Car Color:" {self.color})
-        print(f"Car Make:" {self.make})
-        print(f"Car Model:" {self.model})
-        print(f"Car Year:" {self.year})        
+        print(f"Car Color: {self.color}")
+        print(f"Car Make: {self.make}")
+        print(f"Car Model: {self.model}")
+        print(f"Car Year: {self.year}")        
         
 myCar = Car("Red", "Ferrari", "F50", "1995")
 car2 = Car("Yellor", "Lambo", "Aventador", "2012")
