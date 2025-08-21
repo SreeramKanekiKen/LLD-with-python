@@ -25,3 +25,20 @@ class Cat(Animal):
         
 animals = [Dog(), Cat()]
 
+for animal in animals:
+    animal.make_sound()
+    
+class Car:
+    def start(self):
+        print("Car is starting")
+        
+class Bike:
+    def start(self):
+        print("Bike is starting")
+        
+def vehicle_start(vehicle):
+    vehicle.start()
+    
+vehicle_start(Car())
+vehicle_start(Bike())
+
