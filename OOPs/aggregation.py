@@ -29,6 +29,9 @@ if __name__ =="__main__":
     university.add_professor(prof2)
     
     university.show_professors()
-
+    del university
+    
     prof1.teach()
     prof2.teach()
+    
+    university.show_professors()  # This will raise an error since university is deleted
